@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #8c8b8fbb;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    display: inline-block;
+}
+
+nav li:hover {
+    background-color: white;
+    color: #333;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Contenido {
+    display: flex;
+    margin: 70px;
+}
+
+.Articulos {
+    flex: 1;
+    border-right: 3px solid black;
+    padding-right: 20px;
+}
+
+.Secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.Menu-secundario {
+    width: 20%;
+    margin-top: 60px;
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #000;
+}
+
+.Menu-secundario a,
+.Menu-secundario .whatsapp-link {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.Menu-secundario a:last-child,
+.Menu-secundario .whatsapp-link:last-child {
+    border-bottom: none;
+}
